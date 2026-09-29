@@ -1,7 +1,7 @@
-# [Name of the Project] : [Team Number]
+# Alchemy vs Magic : [Team Number:8]
 # Members
 Project Manager: [Name] ([GitHub Name])\
-Communications Lead: [Name] ([GitHub Name])\
+Communications Lead: [Chase Cangelosi] ([Chasecan308])\
 Git Master: [Name] ([GitHub Name])\
 Design Lead: [Name] ([GitHub Name])\
 Quality Assurance Tester: [Name] ([GitHub Name])
