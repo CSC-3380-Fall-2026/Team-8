@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvrfq1v4gbjsn"]
+
+[ext_resource type="Texture2D" uid="uid://cufvtshdvkxwj" path="res://Player 1.png" id="1_j2cpy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_st5jt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_j2cpy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-620, 515)
+scale = Vector2(0.952148, 1)
+sprite_frames = SubResource("SpriteFrames_st5jt")
