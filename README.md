@@ -1,6 +1,6 @@
 # Alchemy vs Magic : [Team Number:8]
 # Members
-Project Manager: [Name] ([GitHub Name])\
+Project Manager: [Hamza Farah] (hamzafarah11])\
 Communications Lead: [Chase Cangelosi] ([Chasecan308])\
 Git Master: [Name] ([GitHub Name])\
 Design Lead: [Phillip Shoats] ([Phillip11037])\
