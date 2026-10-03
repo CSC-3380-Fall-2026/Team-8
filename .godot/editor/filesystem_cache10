@@ -1,7 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1791020750
-icon.svg::CompressedTexture2D/CompressedTexture2D::7279022083795045756::1791019257::1791019265::1::::<><><>0<>0<>f51c689f715ff3e66f4cfadc26e50e22<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Main.tscn::PackedScene::8069682779969649276::1791019588::0::1::::<><><>0<>0<><>::
-Player 1.png::CompressedTexture2D/CompressedTexture2D::6188250072248160657::1791019343::1791019344::1::::<><><>0<>0<>69a1aa62671711e4ad921bfd82912565<>res://.godot/imported/Player 1.png-e4269243255321d1b89498e7f26f5e1a.ctex::
-Player 1.tscn::PackedScene::3895814378950800093::1791019562::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Player 1.png
-README.md::TextFile::-1::1791020065::0::1::::<><><>0<>0<><>::
+::res://::1791021956
+README.md::TextFile/TextFile::-1::1791020065::0::1::::<><><>0<>0<><>::
+::res://Assets/::1791021831
+::res://Assets/Enemies/::1791021833
+::res://Assets/Players/::1791021956
+Player 1.png::CompressedTexture2D::6188250072248160657::1791019343::1791021956::1::::<><><>0<>0<>f577a65d54a40be8b0759c4d0acfc384<>res://.godot/imported/Player 1.png-01bece9209aad3a2cdd58feebbfd8a02.ctex::
+::res://Scenes/::1791021956
+Main.tscn::PackedScene/PackedScene::8069682779969649276::1791019588::0::1::::<><><>0<>0<><>::
+Player 1.tscn::PackedScene::3895814378950800093::1791021956::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png
+::res://Scripts/::1791020867
