@@ -1,9 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://cmb3nu23w204r"]
+[gd_scene load_steps=3 format=3 uid="uid://cmb3nu23w204r"]
 
 [ext_resource type="PackedScene" uid="uid://bvrfq1v4gbjsn" path="res://Scenes/Player 1.tscn" id="1_1jm4f"]
+[ext_resource type="Texture2D" uid="uid://db0yxet7cugrm" path="res://Assets/Background.png" id="2_672r5"]
 
-[node name="Camera2D" type="Camera2D"]
+[node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_1jm4f")]
-position = Vector2(-9, 7)
+position = Vector2(555, 336)
 scale = Vector2(0.1, 0.1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(582.5, 357)
+scale = Vector2(1.31543, 0.769531)
+texture = ExtResource("2_672r5")
