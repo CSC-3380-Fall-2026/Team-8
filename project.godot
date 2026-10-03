@@ -11,4 +11,5 @@ config_version=5
 [application]
 
 config/name="Alchemy VS Magic"
+run/main_scene="uid://bvrfq1v4gbjsn"
 config/features=PackedStringArray("4.4", "Forward Plus")

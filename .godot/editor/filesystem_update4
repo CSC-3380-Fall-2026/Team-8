@@ -1,2 +1,4 @@
 res://Scenes/Player 1.tscn
-res://Scripts/Player_HP.gd
+res://Scripts/Player_Movement.gd
+res://Scenes/Main.tscn
+res://Scenes/Movement_testing_area.tscn

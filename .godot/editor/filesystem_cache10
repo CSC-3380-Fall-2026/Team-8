@@ -1,11 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1791021956
+::res://::1791029266
 README.md::TextFile/TextFile::-1::1791020065::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1791021831
 ::res://Assets/Enemies/::1791021833
 ::res://Assets/Players/::1791021956
-Player 1.png::CompressedTexture2D::6188250072248160657::1791019343::1791021956::1::::<><><>0<>0<>f577a65d54a40be8b0759c4d0acfc384<>res://.godot/imported/Player 1.png-01bece9209aad3a2cdd58feebbfd8a02.ctex::
-::res://Scenes/::1791021956
-Main.tscn::PackedScene/PackedScene::8069682779969649276::1791019588::0::1::::<><><>0<>0<><>::
-Player 1.tscn::PackedScene::3895814378950800093::1791021956::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png
-::res://Scripts/::1791020867
+Player 1.png::CompressedTexture2D/CompressedTexture2D::6188250072248160657::1791019343::1791021956::1::::<><><>0<>0<>f577a65d54a40be8b0759c4d0acfc384<>res://.godot/imported/Player 1.png-01bece9209aad3a2cdd58feebbfd8a02.ctex::
+::res://Scenes/::1791029397
+Main.tscn::PackedScene::8069682779969649276::1791029397::0::1::::<><><>0<>0<><>::
+Player 1.tscn::PackedScene::3895814378950800093::1791029397::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png<>uid://bq3a0b4d3ag1c::::res://Scripts/Player_Movement.gd
+player_1.gd::GDScript::4295772567902922899::1791027872::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Scripts/::1791029248
+Player_HP.gd::GDScript/GDScript::7771746385253833404::1791024881::0::1::::Health<>Node<><>0<>0<><>::
