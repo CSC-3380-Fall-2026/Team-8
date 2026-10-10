@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=4 format=3 uid="uid://cgj4xfc7inpyi"]
+
+[ext_resource type="Resource" uid="uid://kdgn5ht5503u" path="res://Skills/Attack.tres" id="1_5ffkx"]
+[ext_resource type="Script" uid="uid://bogm53t5a08vt" path="res://Scripts/EntityResource.gd" id="1_abny4"]
+[ext_resource type="Resource" uid="uid://bikep07d42qlu" path="res://Skills/S_Attack.tres" id="2_kxf87"]
+
+[resource]
+script = ExtResource("1_abny4")
+Mobname = "Enemy"
+MaxHP = 25.0
+Str = 3
+Dex = 3
+Int = 3
+Skills = Array[Resource]([ExtResource("1_5ffkx"), ExtResource("2_kxf87")])

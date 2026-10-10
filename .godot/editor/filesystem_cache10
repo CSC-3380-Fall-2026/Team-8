@@ -1,16 +1,29 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1791032105
+::res://::1791632902
 README.md::TextFile/TextFile::-1::1791020065::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1791032105
-Background.png::CompressedTexture2D::7282558860557122022::1791032102::1791032105::1::::<><><>0<>0<>23d7bf934f7b5542182153d7a813703a<>res://.godot/imported/Background.png-e8880a50f4091751eaed728281d3c21e.ctex::
+Background.png::CompressedTexture2D/CompressedTexture2D::7282558860557122022::1791032102::1791032105::1::::<><><>0<>0<>23d7bf934f7b5542182153d7a813703a<>res://.godot/imported/Background.png-e8880a50f4091751eaed728281d3c21e.ctex::
 ::res://Assets/Enemies/::1791021833
 ::res://Assets/Players/::1791021956
 Player 1.png::CompressedTexture2D/CompressedTexture2D::6188250072248160657::1791019343::1791021956::1::::<><><>0<>0<>f577a65d54a40be8b0759c4d0acfc384<>res://.godot/imported/Player 1.png-01bece9209aad3a2cdd58feebbfd8a02.ctex::
-::res://Scenes/::1791032105
-Main.tscn::PackedScene/PackedScene::8069682779969649276::1791031530::0::1::::<><><>0<>0<><>::
-Movement_testing_area.tscn::PackedScene/PackedScene::5618896253394279623::1791031543::0::1::::<><><>0<>0<><>::uid://bvrfq1v4gbjsn::::res://Scenes/Player 1.tscn
-Player 1.tscn::PackedScene/PackedScene::3895814378950800093::1791031530::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png<>uid://baovil4c1wohb::::res://Scripts/Player_Movement.gd
-::res://Scripts/::1791031523
+::res://Mobs/::1791633201
+Enemy.tres::Resource::5214355962222487388::1791633201::0::1::::<><><>0<>0<><>::uid://kdgn5ht5503u::::res://Skills/Attack.tres<>uid://bogm53t5a08vt::::res://Scripts/EntityResource.gd<>uid://bikep07d42qlu::::res://Skills/S_Attack.tres
+::res://Scenes/::1791633618
+entity.tscn::PackedScene::5956802296495742056::1791633618::0::1::::<><><>0<>0<><>::uid://ima0ijlfk2l2::::res://Scripts/entity.gd<>uid://dktt1nauf4iok::::res://Scripts/attack_node.gd<>uid://clq26d0skyiu4::::res://Scripts/health_node.gd<>uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png
+main_outer.tscn::PackedScene::8069682779969649276::1791628982::0::1::::<><><>0<>0<><>::uid://m38aps7lepwo::::res://Scripts/main_outer.gd<>uid://ima0ijlfk2l2::::res://Scripts/entity.gd<>uid://dktt1nauf4iok::::res://Scripts/attack_node.gd<>uid://clq26d0skyiu4::::res://Scripts/health_node.gd
+Movement_testing_area.tscn::PackedScene::5618896253394279623::1791633618::0::1::::<><><>0<>0<><>::uid://bvrfq1v4gbjsn::::res://Scenes/Player 1.tscn<>uid://db0yxet7cugrm::::res://Assets/Background.png
+Player 1.tscn::PackedScene::3895814378950800093::1791633618::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png<>uid://baovil4c1wohb::::res://Scripts/Player_Movement.gd
+::res://Scripts/::1791633607
+attack_node.gd::GDScript/GDScript::7901574402010944446::1791632735::0::1::::<>Node<><>0<>0<><>::
+entity.gd::GDScript::586328361597535677::1791633201::0::1::::<>Control<><>0<>0<><>::
+EntityResource.gd::GDScript::3382234440249429673::1791633607::0::1::::<>Resource<><>0<>0<><>::
+health_node.gd::GDScript/GDScript::5579643606907576133::1791632735::0::1::::<>Node<><>0<>0<><>::
+main_outer.gd::GDScript::902073178656895878::1791633607::0::1::::<>Control<><>0<>0<><>::
+PlayerStats.gd::GDScript/GDScript::5751542535057167176::1791632735::0::1::::<>Node<><>0<>0<><>::
 player_1.gd::GDScript/GDScript::4295772567902922899::1791027872::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Player_HP.gd::GDScript/GDScript::7771746385253833404::1791024881::0::1::::Health<>Node<><>0<>0<><>::
 Player_Movement.gd::GDScript/GDScript::2416611938131949175::1791031523::0::1::::<>CharacterBody2D<><>0<>0<><>::
+SkillResource.gd::GDScript/GDScript::4585556904563872055::1791632735::0::1::::<>Resource<><>0<>0<><>::
+::res://Skills/::1791633201
+Attack.tres::Resource/Resource::708470674338572960::1791632735::0::1::::<><><>0<>0<><>::uid://b6ljpm2vhfthf::::res://Scripts/SkillResource.gd
+S_Attack.tres::Resource::2968846227911232210::1791633201::0::1::::<><><>0<>0<><>::uid://b6ljpm2vhfthf::::res://Scripts/SkillResource.gd

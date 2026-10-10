@@ -1,3 +1,17 @@
-res://Scenes/Movement_testing_area.tscn
 res://Scenes/Main.tscn
+res://Scripts/entity.gd
+res://Scripts/main_outer.gd
+res://entity.tscn
+res://Scripts/attack_node.gd
+res://Mobs/Enemy.tres
+res://Skills/S_Attack.tres
+res://Skills/Attack.tres
+res://Scripts/EntityResource.gd
+res://Scripts/health_node.gd
+res://Scripts/PlayerStats.gd
+res://Scripts/SkillResource.gd
+res://Scenes/entity.tscn
 res://Scenes/Player 1.tscn
+res://Scenes/Movement_testing_area.tscn
+res://Scenes/main_outer.tscn
+res://Scripts/player_skill_box.gd

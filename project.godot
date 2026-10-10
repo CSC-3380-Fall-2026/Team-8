@@ -11,5 +11,9 @@ config_version=5
 [application]
 
 config/name="Alchemy VS Magic"
-run/main_scene="uid://bvrfq1v4gbjsn"
+run/main_scene="uid://dm8aq43e0rjb5"
 config/features=PackedStringArray("4.4", "Forward Plus")
+
+[autoload]
+
+PlayerStats="*res://Scripts/PlayerStats.gd"
