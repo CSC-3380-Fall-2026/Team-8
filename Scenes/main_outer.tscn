@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://di5lspdperm47"]
+
+[ext_resource type="Script" path="res://Scripts/main_outer.gd" id="1_7qq1l"]
+[ext_resource type="Script" path="res://Scripts/player_skill_box.gd" id="2_7qq1l"]
+
+[node name="MainOuter" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = -9.0
+offset_right = 8.0
+offset_bottom = -9.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7qq1l")
+
+[node name="PlayerSkillBox" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 83.0
+offset_right = 1065.0
+offset_bottom = 612.0
+script = ExtResource("2_7qq1l")

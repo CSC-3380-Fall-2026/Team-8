@@ -1,0 +1,54 @@
+[gd_scene load_steps=7 format=3 uid="uid://snnd5yyqev08"]
+
+[ext_resource type="Script" path="res://Scripts/entity.gd" id="1_nwmpt"]
+[ext_resource type="Script" path="res://Scripts/attack_node.gd" id="2_03rkj"]
+[ext_resource type="Script" path="res://Scripts/health_node.gd" id="3_pimh3"]
+[ext_resource type="Texture2D" uid="uid://cufvtshdvkxwj" path="res://Assets/Players/Player 1.png" id="4_03rkj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pimh3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_03rkj")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_03rkj"]
+bg_color = Color(0, 0.722619, 0.180222, 1)
+
+[node name="Entity" type="Control" node_paths=PackedStringArray("HealthNode", "AttackNode")]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_nwmpt")
+HealthNode = NodePath("HealthNode")
+AttackNode = NodePath("AttackNode")
+
+[node name="AttackNode" type="Node" parent="."]
+script = ExtResource("2_03rkj")
+
+[node name="HealthNode" type="Node" parent="."]
+script = ExtResource("3_pimh3")
+
+[node name="EntitySprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(9, -10)
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_pimh3")
+animation = &"Idle"
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = -178.0
+offset_top = -316.0
+offset_right = 200.0
+offset_bottom = -231.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_03rkj")
+max_value = 1.0
+value = 1.0
+show_percentage = false
+
+[connection signal="animation_finished" from="EntitySprite" to="." method="_on_entity_sprite_animation_finished"]

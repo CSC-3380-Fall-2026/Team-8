@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-res://Scenes/Movement_testing_area.tscn
-res://Scenes/Main.tscn
-res://Scenes/Player 1.tscn
-=======
 res://Scenes/main_outer.tscn
 res://Skills/Attack.tres
 res://Mobs/Enemy.tres
@@ -17,4 +12,3 @@ res://Scenes/battle_scene.tscn
 res://Scenes/player_group.tscn
 res://Scripts/player_group.gd
 res://Scripts/combot_character.gd
->>>>>>> Stashed changes
