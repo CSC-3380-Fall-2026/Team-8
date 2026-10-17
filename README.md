@@ -4,7 +4,7 @@ Project Manager: [Hamza Farah] (hamzafarah11])\
 Communications Lead: [Chase Cangelosi] ([Chasecan308])\
 Git Master: [Name] ([GitHub Name])\
 Design Lead: [Phillip Shoats] ([Phillip11037])\
-Quality Assurance Tester: [Name] ([GitHub Name])
+Quality Assurance Tester: [Dionie Alexander] ([D10n1eAlex])
 
 # About Our Software
 
