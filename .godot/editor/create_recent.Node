@@ -1,6 +1,24 @@
+<<<<<<< Updated upstream
 Sprite2D
 Camera2D
 Node2D
 CollisionShape2D
 AnimatedSprite2D
 CharacterBody2D
+=======
+Button
+VBoxContainer
+CanvasLayer
+TextureRect
+AnimationPlayer
+ProgressBar
+Sprite2D
+CharacterBody2D
+HBoxContainer
+AnimatedSprite2D
+Node
+Control
+Camera2D
+Node2D
+CollisionShape2D
+>>>>>>> Stashed changes

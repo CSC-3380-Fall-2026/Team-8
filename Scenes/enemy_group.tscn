@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b75kk5bgjivxd"]
+
+[ext_resource type="Script" uid="uid://3od418g2i48g" path="res://Scripts/enemy_group.gd" id="1_sib6e"]
+[ext_resource type="PackedScene" uid="uid://bx1yd6q2oylrm" path="res://Scenes/Combot Character.tscn" id="2_8x4yu"]
+
+[node name="EnemyGroup" type="Node2D"]
+position = Vector2(-212, -177)
+script = ExtResource("1_sib6e")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_8x4yu")]
+position = Vector2(-339, -329)
+
+[node name="CharacterBody2D2" parent="." instance=ExtResource("2_8x4yu")]
+position = Vector2(-339, -329)
+
+[node name="CharacterBody2D3" parent="." instance=ExtResource("2_8x4yu")]
+position = Vector2(-339, -329)

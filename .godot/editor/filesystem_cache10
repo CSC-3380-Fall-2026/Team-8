@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1791032105
 README.md::TextFile/TextFile::-1::1791020065::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1791032105
@@ -14,3 +15,44 @@ Player 1.tscn::PackedScene/PackedScene::3895814378950800093::1791031530::0::1:::
 player_1.gd::GDScript/GDScript::4295772567902922899::1791027872::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Player_HP.gd::GDScript/GDScript::7771746385253833404::1791024881::0::1::::Health<>Node<><>0<>0<><>::
 Player_Movement.gd::GDScript/GDScript::2416611938131949175::1791031523::0::1::::<>CharacterBody2D<><>0<>0<><>::
+=======
+::res://::1792258492
+entity.tscn::PackedScene::5956802296495742056::1792258492::0::1::::<><><>0<>0<><>::uid://ima0ijlfk2l2::::res://Scripts/entity.gd<>uid://dktt1nauf4iok::::res://Scripts/attack_node.gd<>uid://clq26d0skyiu4::::res://Scripts/health_node.gd<>uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png
+README.md::TextFile/TextFile::-1::1791020065::0::1::::<><><>0<>0<><>::
+::res://Assets/::1792255141
+Background.png::CompressedTexture2D/CompressedTexture2D::7282558860557122022::1791032102::1791032105::1::::<><><>0<>0<>23d7bf934f7b5542182153d7a813703a<>res://.godot/imported/Background.png-e8880a50f4091751eaed728281d3c21e.ctex::
+::res://Assets/Combat UI/::1792257894
+Background.png::CompressedTexture2D::524350205216158675::1792257878::1792257894::1::::<><><>0<>0<>db2b0335670ed9f41fe9670133647254<>res://.godot/imported/Background.png-768f53c90d4a6c5ab2b86fe9cd6f0d94.ctex::
+Turn Indicator.png::CompressedTexture2D/CompressedTexture2D::1959869402251000580::1792255158::1792255177::1::::<><><>0<>0<>bced7f7e5d718f058038b912fb895895<>res://.godot/imported/Turn Indicator.png-324e6ba76965151990bba150b47f81de.ctex::
+::res://Assets/Enemies/::1792258833
+Enemy placeholder.png::CompressedTexture2D::4310005099552476768::1792258833::1792258834::1::::<><><>0<>0<>c5d35b0c8f11233956ddee557c714312<>res://.godot/imported/Enemy placeholder.png-10157c3724baaf54af432e8d402a1aa5.ctex::
+::res://Assets/Players/::1792258733
+Player 1.png::CompressedTexture2D/CompressedTexture2D::6188250072248160657::1791019343::1791021956::1::::<><><>0<>0<>f577a65d54a40be8b0759c4d0acfc384<>res://.godot/imported/Player 1.png-01bece9209aad3a2cdd58feebbfd8a02.ctex::
+Player 2.png::CompressedTexture2D::8743272793860672137::1792258733::1792258733::1::::<><><>0<>0<>2fcaed8c1aa721703316c7ad29643908<>res://.godot/imported/Player 2.png-06687bd9fd551fdb081e7fc520cb58fd.ctex::
+::res://Mobs/::1792085248
+Enemy.tres::Resource/Resource::5214355962222487388::1792085248::0::1::::<><><>0<>0<><>::uid://kdgn5ht5503u::::res://Skills/Attack.tres<>uid://bogm53t5a08vt::::res://Scripts/EntityResource.gd<>uid://bikep07d42qlu::::res://Skills/S_Attack.tres
+::res://Scenes/::1792258628
+battle_scene.tscn::PackedScene::5489817845962494735::1792258492::0::1::::<><><>0<>0<><>::uid://b75kk5bgjivxd::::res://Scenes/enemy_group.tscn<>uid://hp88a136i3qt::::res://Assets/Combat UI/Background.png
+Combot Character.tscn::PackedScene::4055902128368656762::1792258492::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png<>uid://26m06xy66b37::::res://Assets/Combat UI/Turn Indicator.png
+enemy_group.tscn::PackedScene::4695021618128932021::1792258492::0::1::::<><><>0<>0<><>::uid://3od418g2i48g::::res://Scripts/enemy_group.gd<>uid://bx1yd6q2oylrm::::res://Scenes/Combot Character.tscn
+main_outer.tscn::PackedScene::8069682779969649276::1792258491::0::1::::<><><>0<>0<><>::uid://m38aps7lepwo::::res://Scripts/main_outer.gd<>uid://dh5u1vclmejys::::res://Scripts/player_skill_box.gd
+Movement_testing_area.tscn::PackedScene::5618896253394279623::1792258492::0::1::::<><><>0<>0<><>::uid://bvrfq1v4gbjsn::::res://Scenes/Player 1.tscn<>uid://db0yxet7cugrm::::res://Assets/Background.png
+Player 1.tscn::PackedScene::3895814378950800093::1792258491::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png<>uid://baovil4c1wohb::::res://Scripts/Player_Movement.gd
+player_group.tscn::PackedScene::7496297750578616484::1792258628::0::1::::<><><>0<>0<><>::
+::res://Scripts/::1792257591
+attack_node.gd::GDScript/GDScript::7901574402010944446::1791642398::0::1::::<>Node<><>0<>0<><>::
+enemy_group.gd::GDScript/GDScript::1994424266317977164::1792257591::0::1::::<>Node2D<><>0<>0<><>::
+entity.gd::GDScript/GDScript::586328361597535677::1791643286::0::1::::<>Control<><>0<>0<><>::
+EntityResource.gd::GDScript/GDScript::3382234440249429673::1791633607::0::1::::<>Resource<><>0<>0<><>::
+health_node.gd::GDScript/GDScript::5579643606907576133::1791641985::0::1::::<>Node<><>0<>0<><>::
+main_outer.gd::GDScript/GDScript::902073178656895878::1791643235::0::1::::<>Control<><>0<>0<><>::
+PlayerStats.gd::GDScript/GDScript::5751542535057167176::1791636064::0::1::::<>Node<><>0<>0<><>::
+player_1.gd::GDScript/GDScript::4295772567902922899::1791027872::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player_HP.gd::GDScript/GDScript::7771746385253833404::1791024881::0::1::::Health<>Node<><>0<>0<><>::
+Player_Movement.gd::GDScript/GDScript::2416611938131949175::1791031523::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player_skill_box.gd::GDScript/GDScript::7713777166260135718::1791639904::0::1::::<>HBoxContainer<><>0<>0<><>::
+SkillResource.gd::GDScript/GDScript::4585556904563872055::1791632735::0::1::::<>Resource<><>0<>0<><>::
+::res://Skills/::1792085248
+Attack.tres::Resource/Resource::708470674338572960::1792085248::0::1::::<><><>0<>0<><>::uid://b6ljpm2vhfthf::::res://Scripts/SkillResource.gd
+S_Attack.tres::Resource/Resource::2968846227911232210::1791633201::0::1::::<><><>0<>0<><>::uid://b6ljpm2vhfthf::::res://Scripts/SkillResource.gd
+>>>>>>> Stashed changes
