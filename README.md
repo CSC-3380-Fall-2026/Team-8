@@ -2,7 +2,7 @@
 # Members
 Project Manager: [Hamza Farah] (hamzafarah11])\
 Communications Lead: [Chase Cangelosi] ([Chasecan308])\
-Git Master: [Name] ([GitHub Name])\
+Git Master: [Isaac Salinas] ([isaacsalinas])\
 Design Lead: [Phillip Shoats] ([Phillip11037])\
 Quality Assurance Tester: [Name] ([GitHub Name])
 
