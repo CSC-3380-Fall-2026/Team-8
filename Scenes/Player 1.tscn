@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://bvrfq1v4gbjsn"]
+[gd_scene load_steps=7 format=3 uid="uid://bvrfq1v4gbjsn"]
 
 [ext_resource type="Texture2D" uid="uid://cufvtshdvkxwj" path="res://Assets/Players/Player 1.png" id="1_3s2gs"]
 [ext_resource type="Script" uid="uid://baovil4c1wohb" path="res://Scripts/Player_Movement.gd" id="1_7kyai"]
+[ext_resource type="Script" uid="uid://v5e20oawpart" path="res://Scenes/PlayerHealthBar.gd" id="3_uj644"]
+[ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_v06ft"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_st5jt"]
 animations = [{
@@ -30,3 +32,16 @@ sprite_frames = SubResource("SpriteFrames_st5jt")
 texture_filter = 1
 position = Vector2(-2, 0)
 shape = SubResource("CircleShape2D_7kyai")
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("3_v06ft")
+
+[node name="PlayerHealthBar" type="ProgressBar" parent="."]
+offset_left = -150.0
+offset_top = -575.0
+offset_right = 150.0
+offset_bottom = -550.0
+max_value = 20.0
+value = 20.0
+show_percentage = false
+script = ExtResource("3_uj644")
