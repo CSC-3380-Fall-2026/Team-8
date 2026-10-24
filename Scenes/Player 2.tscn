@@ -1,16 +1,16 @@
 [gd_scene load_steps=8 format=3 uid="uid://dcuo3jfhes0dn"]
 
 [ext_resource type="Script" uid="uid://baovil4c1wohb" path="res://Scripts/Player_Movement.gd" id="1_ucbrj"]
-[ext_resource type="Texture2D" uid="uid://cufvtshdvkxwj" path="res://Assets/Players/Player 1.png" id="2_n5wmx"]
+[ext_resource type="Texture2D" uid="uid://d6okf0u2udgw" path="res://Assets/Players/Player 2 temp.png" id="2_ucbrj"]
 [ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_r0lu6"]
 [ext_resource type="Script" uid="uid://v5e20oawpart" path="res://Scenes/PlayerHealthBar.gd" id="4_54uua"]
 [ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_plkt7"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_st5jt"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_n5wmx"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_n5wmx")
+"texture": ExtResource("2_ucbrj")
 }],
 "loop": true,
 "name": &"default",
@@ -27,7 +27,7 @@ script = ExtResource("1_ucbrj")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(7, -3)
 scale = Vector2(0.952148, 1)
-sprite_frames = SubResource("SpriteFrames_st5jt")
+sprite_frames = SubResource("SpriteFrames_n5wmx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 texture_filter = 1
