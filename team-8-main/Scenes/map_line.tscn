@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpvsfyjdo8mkn"]
+
+[ext_resource type="Texture2D" uid="uid://cjrw2yhi3y10g" path="res://Assets/Map Nodes/Map_Line.png" id="1_bxmqa"]
+
+[node name="MapLine" type="Line2D"]
+texture_repeat = 2
+width = 20.0
+texture = ExtResource("1_bxmqa")
+texture_mode = 1

@@ -1,0 +1,49 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1792807198
+README.md::TextFile/TextFile::-1::1792270720::0::1::::<><><>0<>0<><>::
+::res://Assets/::1792807131
+Background.png::CompressedTexture2D/CompressedTexture2D::7282558860557122022::1792270720::1792270720::1::::<><><>0<>0<>23d7bf934f7b5542182153d7a813703a<>res://.godot/imported/Background.png-e8880a50f4091751eaed728281d3c21e.ctex::
+::res://Assets/Combat UI/::1792807131
+Background.png::CompressedTexture2D/CompressedTexture2D::524350205216158675::1792270862::1792271018::1::::<><><>0<>0<>db2b0335670ed9f41fe9670133647254<>res://.godot/imported/Background.png-768f53c90d4a6c5ab2b86fe9cd6f0d94.ctex::
+Turn Indicator.png::CompressedTexture2D/CompressedTexture2D::1959869402251000580::1792270864::1792271023::1::::<><><>0<>0<>bced7f7e5d718f058038b912fb895895<>res://.godot/imported/Turn Indicator.png-324e6ba76965151990bba150b47f81de.ctex::
+::res://Assets/Enemies/::1792807131
+Enemy placeholder.png::CompressedTexture2D/CompressedTexture2D::4310005099552476768::1792270840::1792271004::1::::<><><>0<>0<>c5d35b0c8f11233956ddee557c714312<>res://.godot/imported/Enemy placeholder.png-10157c3724baaf54af432e8d402a1aa5.ctex::
+::res://Assets/Map Nodes/::1792807131
+Boss_Node.png::CompressedTexture2D/CompressedTexture2D::5825766547656341415::1792774056::1792774057::1::::<><><>0<>0<>95a3309b967ed7af3ed519a2200a88e1<>res://.godot/imported/Boss_Node.png-88362903c153bcb72027016235766961.ctex::
+Event_Node.png::CompressedTexture2D/CompressedTexture2D::8174611616117645083::1792773966::1792773967::1::::<><><>0<>0<>ec1fec3633a0080a8a5aa35d53e1a361<>res://.godot/imported/Event_Node.png-24d9cc262d91c569414700bfb7a767bb.ctex::
+Fight_Node (2).png::CompressedTexture2D/CompressedTexture2D::8333459577824100978::1792773955::1792773956::1::::<><><>0<>0<>62ce865f17f5528b2f29b7dcb1f1195d<>res://.godot/imported/Fight_Node (2).png-e36401affccce0d18e8efcb8ced30ddd.ctex::
+Inn.png::CompressedTexture2D/CompressedTexture2D::6445139149190065902::1792773932::1792773938::1::::<><><>0<>0<>be6d7dcabf8a9bccaf9614b4a17a72e4<>res://.godot/imported/Inn.png-8c1b66b2c4524b9886bc6eacc692187b.ctex::
+Map_Line.png::CompressedTexture2D/CompressedTexture2D::5441020643999713536::1792789569::1792789586::1::::<><><>0<>0<>84c49a1b5599720cd1d50d46b5b6d2c9<>res://.godot/imported/Map_Line.png-14b36e4c2169f9860d710705054ac152.ctex::
+Map_Rest.png::CompressedTexture2D/CompressedTexture2D::6849876444964196789::1792773982::1792773983::1::::<><><>0<>0<>77ece57d10951c39094314e0f4673bf6<>res://.godot/imported/Map_Rest.png-e220ceaec3e9959fc8a8dcd0b227728c.ctex::
+Map_Treasure.png::CompressedTexture2D/CompressedTexture2D::1423801474401046894::1792773979::1792773980::1::::<><><>0<>0<>a293d817f188fb5923bea18ac6b5ee79<>res://.godot/imported/Map_Treasure.png-761ef62c02e1a11a73056a7573c38bc1.ctex::
+Mini_Boss_Node.png::CompressedTexture2D/CompressedTexture2D::7907004068643450095::1792773945::1792773946::1::::<><><>0<>0<>7d766dff22146787766841abee1a6696<>res://.godot/imported/Mini_Boss_Node.png-67a20cfe178367fa9fed5786df491f6e.ctex::
+Quiz_Node.png::CompressedTexture2D/CompressedTexture2D::2112597752413936263::1792773959::1792773960::1::::<><><>0<>0<>8edbe84eac16afddd4e4fe39b0bd28fd<>res://.godot/imported/Quiz_Node.png-0ecfbdd2b3daa765028e03249856500b.ctex::
+Scouting_Node.png::CompressedTexture2D/CompressedTexture2D::262012393525304360::1792773972::1792773973::1::::<><><>0<>0<>b992d9a4e19b25da390b869e95dfacbb<>res://.godot/imported/Scouting_Node.png-b043c5c09328ccc2f1a4bf27297ead99.ctex::
+Shop_Node.png::CompressedTexture2D/CompressedTexture2D::1385650800803835954::1792774708::1792774709::1::::<><><>0<>0<>9e67642289b97eb008e99f4058888710<>res://.godot/imported/Shop_Node.png-6b9fb8292472d1728559822f8de125f2.ctex::
+Trial_Node (2).png::CompressedTexture2D/CompressedTexture2D::884813315080205710::1792773949::1792773950::1::::<><><>0<>0<>5dde194d84658ca921d8b3880bd8d564<>res://.godot/imported/Trial_Node (2).png-fcab707e76a78766b6bcb4573a9a7901.ctex::
+::res://Assets/Players/::1792807131
+Player 1.png::CompressedTexture2D/CompressedTexture2D::6188250072248160657::1792270720::1792271130::1::::<><><>0<>0<>f577a65d54a40be8b0759c4d0acfc384<>res://.godot/imported/Player 1.png-01bece9209aad3a2cdd58feebbfd8a02.ctex::
+Player 2.png::CompressedTexture2D/CompressedTexture2D::8743272793860672137::1792270819::1792271032::1::::<><><>0<>0<>2fcaed8c1aa721703316c7ad29643908<>res://.godot/imported/Player 2.png-06687bd9fd551fdb081e7fc520cb58fd.ctex::
+::res://Scenes/::1792807131
+battle_scene.tscn::PackedScene/PackedScene::9055600521756312597::1792793698::0::1::::<><><>0<>0<><>::uid://dufnk2mi08c15::::res://Scenes/enemy_group.tscn<>uid://hp88a136i3qt::::res://Assets/Combat UI/Background.png<>uid://de2i6tu1j8aga::::res://Scenes/player_group.tscn
+Combat Character.tscn::PackedScene/PackedScene::4055902128368656762::1792793698::0::1::::<><><>0<>0<><>::uid://b081cpswgrsl::::res://Scripts/combot_character.gd<>uid://b2n2fimhjy3ng::::res://Assets/Enemies/Enemy placeholder.png<>uid://26m06xy66b37::::res://Assets/Combat UI/Turn Indicator.png
+enemy_group.tscn::PackedScene/PackedScene::8574169428521561650::1792793698::0::1::::<><><>0<>0<><>::uid://cc4r3aumyfg1v::::res://Scripts/enemy_group.gd<>uid://bx1yd6q2oylrm::::res://Scenes/Combat Character.tscn
+Main.tscn::PackedScene/PackedScene::8069682779969649276::1792793698::0::1::::<><><>0<>0<><>::
+Map.tscn::PackedScene::5584886782029303575::1792806807::0::1::::<><><>0<>0<><>::uid://cnvnfxi5ayhfj::::res://Scripts/map.gd<>uid://wi46gh61x2no::::res://Scripts/map_generator.gd
+map_line.tscn::PackedScene/PackedScene::5870129064251233433::1792806428::0::1::::<><><>0<>0<><>::uid://cjrw2yhi3y10g::::res://Assets/Map Nodes/Map_Line.png
+map_room.tscn::PackedScene/PackedScene::4995906252980407540::1792806428::0::1::::<><><>0<>0<><>::uid://b3bg8nv6k54lh::::res://Scripts/map_room.gd<>uid://dqy14ke1hhewo::::res://Assets/Map Nodes/Fight_Node (2).png
+Movement_testing_area.tscn::PackedScene/PackedScene::5618896253394279623::1792793698::0::1::::<><><>0<>0<><>::uid://bvrfq1v4gbjsn::::res://Scenes/Player 1.tscn<>uid://db0yxet7cugrm::::res://Assets/Background.png
+Player 1.tscn::PackedScene/PackedScene::3895814378950800093::1792793698::0::1::::<><><>0<>0<><>::uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png<>uid://baovil4c1wohb::::res://Scripts/Player_Movement.gd
+player_group.tscn::PackedScene/PackedScene::7496297750578616484::1792793698::0::1::::<><><>0<>0<><>::uid://b6piw8rqelyg4::::res://Scripts/player_group.gd<>uid://bx1yd6q2oylrm::::res://Scenes/Combat Character.tscn<>uid://dwtkop5d8kd66::::res://Assets/Players/Player 2.png<>uid://cufvtshdvkxwj::::res://Assets/Players/Player 1.png
+::res://Scripts/::1792807131
+combot_character.gd::GDScript/GDScript::123848507958607043::1792271059::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy_group.gd::GDScript/GDScript::4974168232109957193::1792271081::0::1::::<>Node2D<><>0<>0<><>::
+events.gd::GDScript/GDScript::4240752379042804482::1792792740::0::1::::<>Node<><>0<>0<><>::
+map.gd::GDScript/GDScript::5729447739150869839::1792792169::0::1::::Map<>Node2D<><>0<>0<><>::
+MapResource.gd::GDScript/GDScript::6074429262999078179::1792783456::0::1::::Room<>Resource<><>0<>0<><>::
+map_generator.gd::GDScript/GDScript::1562486061868380204::1792804424::0::1::::MapGenerator<>Node<><>0<>0<><>::
+map_room.gd::GDScript/GDScript::4354196633135047073::1792803310::0::1::::MapRoom<>Area2D<><>0<>0<><>::
+player_1.gd::GDScript/GDScript::4295772567902922899::1792270720::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player_group.gd::GDScript/GDScript::4593767286456043297::1792272114::0::1::::<>Node2D<><>0<>0<><>::
+Player_HP.gd::GDScript/GDScript::7771746385253833404::1792270720::0::1::::Health<>Node<><>0<>0<><>::
+Player_Movement.gd::GDScript/GDScript::2416611938131949175::1792270720::0::1::::<>CharacterBody2D<><>0<>0<><>::
