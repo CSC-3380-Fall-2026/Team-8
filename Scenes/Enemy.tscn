@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=3 uid="uid://ohgavwxey576"]
+
+[ext_resource type="Texture2D" uid="uid://rgon74eblkaf" path="res://Assets/Enemies/Enemy placeholder.png" id="1_m1htj"]
+[ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="2_xeo28"]
+[ext_resource type="Script" uid="uid://dt88pvcd0elma" path="res://Scripts/Enemy_Defeat.gd" id="3_kpr8r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wovta"]
+size = Vector2(887, 762.5)
+
+[node name="Enemy" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.9, 1)
+texture = ExtResource("1_m1htj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 40.75)
+shape = SubResource("RectangleShape2D_wovta")
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("2_xeo28")
+max_health = 30
+
+[node name="EnemyDefeat" type="Node" parent="."]
+script = ExtResource("3_kpr8r")
+
+[node name="EnemyDefeatUI" type="CanvasLayer" parent="."]
+
+[node name="EnemyDefeatLabel" type="Label" parent="EnemyDefeatUI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "ENEMY DEFEATED"
+horizontal_alignment = 1
+vertical_alignment = 1
