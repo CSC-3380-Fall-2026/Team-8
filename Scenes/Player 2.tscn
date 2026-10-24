@@ -1,0 +1,65 @@
+[gd_scene load_steps=8 format=3 uid="uid://dcuo3jfhes0dn"]
+
+[ext_resource type="Script" uid="uid://baovil4c1wohb" path="res://Scripts/Player_Movement.gd" id="1_ucbrj"]
+[ext_resource type="Texture2D" uid="uid://d6okf0u2udgw" path="res://Assets/Players/Player 2 temp.png" id="2_ucbrj"]
+[ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_r0lu6"]
+[ext_resource type="Script" uid="uid://v5e20oawpart" path="res://Scenes/PlayerHealthBar.gd" id="4_54uua"]
+[ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_plkt7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n5wmx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ucbrj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7kyai"]
+radius = 445.2
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+z_index = 1
+script = ExtResource("1_ucbrj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(7, -3)
+scale = Vector2(0.952148, 1)
+sprite_frames = SubResource("SpriteFrames_n5wmx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+texture_filter = 1
+position = Vector2(-2, 0)
+shape = SubResource("CircleShape2D_7kyai")
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("3_r0lu6")
+
+[node name="PlayerHealthBar" type="ProgressBar" parent="."]
+offset_left = -150.0
+offset_top = -575.0
+offset_right = 150.0
+offset_bottom = -550.0
+max_value = 20.0
+value = 20.0
+show_percentage = false
+script = ExtResource("4_54uua")
+
+[node name="PlayerDefeat" type="Node" parent="."]
+script = ExtResource("5_plkt7")
+
+[node name="DefeatUI" type="CanvasLayer" parent="."]
+
+[node name="DefeatLabel" type="Label" parent="DefeatUI"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "PLAYER DEFEATED"
+horizontal_alignment = 1
+vertical_alignment = 1
