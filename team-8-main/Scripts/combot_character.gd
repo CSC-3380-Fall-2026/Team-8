@@ -25,4 +25,8 @@ func unfocus():
 	_focus.hide()
 	
 func take_damage(value):
-	health -= value
+	
+	health = max(health - value, 0)
+	
+func is_alive() -> bool:
+	return health > 0

@@ -8,6 +8,8 @@ var index: int = 0
 signal next_player
 @onready var choice: VBoxContainer = $"../CanvasLayer/Choice"
 
+@onready var player_group = $"../PlayerGroup"
+
 func _ready():
 	enemies = get_children()
 	for i in enemies.size():
@@ -34,12 +36,45 @@ func _process(_delta):
 		_action(action_queue)
 
 func _action(stack):
+	
 	for i in stack:
-		enemies[i].take_damage(1)
+		enemies[i].take_damage(2)
 		await get_tree().create_timer(1).timeout
+		
+	if all_enemies_defeated():
+		print("Victory!")
+		return
+		
+		
+	await enemy_turn()
+	
 	action_queue.clear()
 	is_battling = false
 	show_choice()
+
+func enemy_turn():
+	for enemy in enemies:
+		
+		if not enemy.is_alive():
+			continue
+			
+		
+		var alive_players = []
+		
+		for player in player_group.players:
+			if player.is_alive():
+				alive_players.append(player)
+		
+		if alive_players.is_empty():
+			return
+			
+		var target = alive_players.pick_random()
+		
+		target.take_damage(1)
+		
+		await get_tree().create_timer(1).timeout
+
+
 
 func switch_focus(x,y):
 	enemies[x].focus()
@@ -62,3 +97,12 @@ func _start_choosing():
 func _on_attack_pressed():
 	choice.hide()
 	_start_choosing()
+	
+	
+func all_enemies_defeated() -> bool:
+	
+	for enemy in enemies:
+		if enemy.health > 0: 
+			return false
+			
+	return true
