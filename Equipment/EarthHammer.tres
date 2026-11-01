@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3 uid="uid://dglpsipcjmrbs"]
+
+[ext_resource type="Script" uid="uid://cy6ptrn50t424" path="res://Scripts/WeaponData.gd" id="1_xo2bc"]
+
+[resource]
+script = ExtResource("1_xo2bc")
+weapon_name = "Earth Hammer"
+weapon_type = "Hammer"
+damage = 10
+ailments = Array[String](["Earth"])
+metadata/_custom_type_script = "uid://cy6ptrn50t424"

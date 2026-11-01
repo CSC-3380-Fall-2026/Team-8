@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3 uid="uid://dxsguk4f7ju2q"]
+
+[ext_resource type="Script" uid="uid://cy6ptrn50t424" path="res://Scripts/WeaponData.gd" id="1_3y6p4"]
+
+[resource]
+script = ExtResource("1_3y6p4")
+weapon_name = "Flame Sword"
+weapon_type = "Sword"
+damage = 8
+ailments = Array[String](["Fire"])
+metadata/_custom_type_script = "uid://cy6ptrn50t424"
