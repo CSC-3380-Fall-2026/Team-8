@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://bvrfq1v4gbjsn"]
+[gd_scene load_steps=9 format=3 uid="uid://bvrfq1v4gbjsn"]
 
 [ext_resource type="Texture2D" uid="uid://cufvtshdvkxwj" path="res://Assets/Players/Player 1.png" id="1_3s2gs"]
 [ext_resource type="Script" uid="uid://baovil4c1wohb" path="res://Scripts/Player_Movement.gd" id="1_7kyai"]
 [ext_resource type="Script" uid="uid://v5e20oawpart" path="res://Scenes/PlayerHealthBar.gd" id="3_uj644"]
 [ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_v06ft"]
 [ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_e3jxj"]
+[ext_resource type="Script" uid="uid://t6k0ud8e38wt" path="res://Scripts/PlayerAttack.gd" id="6_cp16i"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_st5jt"]
 animations = [{
@@ -63,3 +64,6 @@ theme_override_font_sizes/font_size = 32
 text = "PLAYER DEFEATED"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="PlayerAttack" type="Node" parent="."]
+script = ExtResource("6_cp16i")
