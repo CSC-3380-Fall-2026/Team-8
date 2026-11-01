@@ -1,10 +1,12 @@
-[gd_scene load_steps=8 format=3 uid="uid://dcuo3jfhes0dn"]
+[gd_scene load_steps=9 format=3 uid="uid://dcuo3jfhes0dn"]
 
 [ext_resource type="Script" uid="uid://baovil4c1wohb" path="res://Scripts/Player_Movement.gd" id="1_ucbrj"]
 [ext_resource type="Texture2D" uid="uid://d6okf0u2udgw" path="res://Assets/Players/Player 2 temp.png" id="2_ucbrj"]
 [ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_r0lu6"]
 [ext_resource type="Script" uid="uid://v5e20oawpart" path="res://Scenes/PlayerHealthBar.gd" id="4_54uua"]
 [ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_plkt7"]
+
+[ext_resource type="Script" path="res://Scripts/AilmentDuration.gd" id="ailment_duration"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_n5wmx"]
 animations = [{
@@ -63,3 +65,6 @@ theme_override_font_sizes/font_size = 32
 text = "PLAYER DEFEATED"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="AilmentDuration" type="Node" parent="."]
+script = ExtResource("ailment_duration")

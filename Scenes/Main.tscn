@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://dm8aq43e0rjb5"]
+[gd_scene load_steps=5 format=3 uid="uid://dm8aq43e0rjb5"]
 
 [ext_resource type="Script" uid="uid://6klf8a0tjs2h" path="res://Scripts/PartyManager.gd" id="1_kln2b"]
 [ext_resource type="PackedScene" uid="uid://bvrfq1v4gbjsn" path="res://Scenes/Player 1.tscn" id="2_rgh2o"]
 [ext_resource type="PackedScene" uid="uid://dcuo3jfhes0dn" path="res://Scenes/Player 2.tscn" id="3_pbw6q"]
+
+[ext_resource type="Script" path="res://Scripts/turn_manager.gd" id="turn_manager"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_kln2b")
@@ -11,3 +13,17 @@ script = ExtResource("1_kln2b")
 
 [node name="Player2" parent="." instance=ExtResource("3_pbw6q")]
 position = Vector2(906, 14)
+
+[node name="TurnManager" type="Node" parent="." groups=["turn_manager"]]
+script = ExtResource("turn_manager")
+
+[node name="TurnUI" type="CanvasLayer" parent="."]
+
+[node name="EndTurn" type="Button" parent="TurnUI"]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 140.0
+offset_bottom = 60.0
+text = "End turn"
+
+[connection signal="pressed" from="TurnUI/EndTurn" to="TurnManager" method="end_turn"]

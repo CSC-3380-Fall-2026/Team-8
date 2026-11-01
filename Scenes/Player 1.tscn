@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bvrfq1v4gbjsn"]
+[gd_scene load_steps=10 format=3 uid="uid://bvrfq1v4gbjsn"]
 
 [ext_resource type="Texture2D" uid="uid://cufvtshdvkxwj" path="res://Assets/Players/Player 1.png" id="1_3s2gs"]
 [ext_resource type="Script" uid="uid://baovil4c1wohb" path="res://Scripts/Player_Movement.gd" id="1_7kyai"]
@@ -6,6 +6,8 @@
 [ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_v06ft"]
 [ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_e3jxj"]
 [ext_resource type="Script" uid="uid://t6k0ud8e38wt" path="res://Scripts/PlayerAttack.gd" id="6_cp16i"]
+
+[ext_resource type="Script" path="res://Scripts/AilmentDuration.gd" id="ailment_duration"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_st5jt"]
 animations = [{
@@ -67,3 +69,6 @@ vertical_alignment = 1
 
 [node name="PlayerAttack" type="Node" parent="."]
 script = ExtResource("6_cp16i")
+
+[node name="AilmentDuration" type="Node" parent="."]
+script = ExtResource("ailment_duration")
