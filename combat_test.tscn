@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cxx4avr76nsd1"]
+
+[ext_resource type="Script" uid="uid://bkvkhy4qfgi2m" path="res://turn_manager.gd" id="1_igkkn"]
+
+[node name="CombatTest" type="Node" unique_id=1955692589]
+
+[node name="TurnManager" type="Node" parent="." unique_id=102323365]
+script = ExtResource("1_igkkn")
+
+[node name="EndTurnButton" type="Button" parent="." unique_id=917386227]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "END TURN"
+
+[connection signal="pressed" from="EndTurnButton" to="TurnManager" method="end_turn"]
