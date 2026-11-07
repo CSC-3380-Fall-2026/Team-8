@@ -9,8 +9,8 @@
 [node name="TextureRect" type="TextureRect" parent="."]
 offset_left = -108.0
 offset_top = -10.0
-offset_right = 1242.0
-offset_bottom = 647.0
+offset_right = 1626.0
+offset_bottom = 799.0
 texture = ExtResource("1_hdvqd")
 expand_mode = 1
 
@@ -43,6 +43,17 @@ text = "Attack"
 layout_mode = 2
 disabled = true
 text = "Defend"
+
+[node name="GameOverLabel" type="Label" parent="CanvasLayer"]
+visible = false
+offset_left = 480.0
+offset_top = 281.0
+offset_right = 1054.0
+offset_bottom = 528.0
+theme_override_font_sizes/font_size = 100
+text = "GAME OVER"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="next_player" from="EnemyGroup" to="PlayerGroup" method="_on_enemy_group_next_player"]
 [connection signal="pressed" from="CanvasLayer/Choice/Attack" to="EnemyGroup" method="_on_attack_pressed"]
