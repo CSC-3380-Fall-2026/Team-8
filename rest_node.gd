@@ -1,6 +1,5 @@
 extends Control
 
-
 signal rest_selected
 
 func _ready() -> void:
