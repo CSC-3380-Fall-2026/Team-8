@@ -8,6 +8,8 @@
 [ext_resource type="Script" uid="uid://t6k0ud8e38wt" path="res://Scripts/PlayerAttack.gd" id="6_cp16i"]
 [ext_resource type="Script" path="res://Scripts/WeaponLoadout.gd" id="7_loadout"]
 
+[ext_resource type="Script" path="res://Scripts/AilmentDuration.gd" id="ailment_duration"]
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_st5jt"]
 animations = [{
 "frames": [{
@@ -71,3 +73,6 @@ script = ExtResource("6_cp16i")
 
 [node name="WeaponLoadout" type="Node" parent="."]
 script = ExtResource("7_loadout")
+
+[node name="AilmentDuration" type="Node" parent="."]
+script = ExtResource("ailment_duration")

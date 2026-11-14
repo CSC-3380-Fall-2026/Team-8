@@ -7,6 +7,8 @@
 [ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_plkt7"]
 [ext_resource type="Script" path="res://Scripts/WeaponLoadout.gd" id="6_loadout"]
 
+[ext_resource type="Script" path="res://Scripts/AilmentDuration.gd" id="ailment_duration"]
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_n5wmx"]
 animations = [{
 "frames": [{
@@ -67,3 +69,6 @@ vertical_alignment = 1
 
 [node name="WeaponLoadout" type="Node" parent="."]
 script = ExtResource("6_loadout")
+
+[node name="AilmentDuration" type="Node" parent="."]
+script = ExtResource("ailment_duration")
