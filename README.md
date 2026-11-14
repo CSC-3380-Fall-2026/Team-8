@@ -16,7 +16,7 @@ Alchemy vs Magic is a 2D turn-based combat game made in Godot. The player contro
 
 # Important Links
 Kanban Board: [Team 8 Kanban Board](https://github.com/orgs/CSC-3380-Fall-2026/projects/10)\
-Designs: TODO: add link\
+Designs: https://drive.google.com/drive/folders/1BMknJBwJv0eNyIEq9Nib3oTM8oFjuf-9?usp=drive_link
 Styles Guide(s): TODO: add link to our code standards
 
 # How to Run Dev and Test Environment
