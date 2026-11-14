@@ -1,6 +1,7 @@
 extends Node
 
 @export var damage: int = 2
+@export var turns_left: int = 3
 @export var target: Health
 
 func _ready() -> void:
@@ -9,6 +10,6 @@ func _ready() -> void:
 		turn_manager.turn_changed.connect(_on_turn_changed)
 
 func _on_turn_changed(current_turn: String) -> void:
-	if current_turn == "PLAYER" and target != null:
+	if current_turn == "PLAYER" and target != null and turns_left > 0:
 		target.health -= damage
-# (#68): stop damage when the ailment expires
+		turns_left -= 1
