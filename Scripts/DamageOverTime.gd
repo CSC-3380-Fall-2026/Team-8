@@ -11,3 +11,4 @@ func _ready() -> void:
 func _on_turn_changed(current_turn: String) -> void:
 	if current_turn == "PLAYER" and target != null:
 		target.health -= damage
+# (#68): stop damage when the ailment expires
