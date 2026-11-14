@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_v06ft"]
 [ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_e3jxj"]
 [ext_resource type="Script" uid="uid://t6k0ud8e38wt" path="res://Scripts/PlayerAttack.gd" id="6_cp16i"]
+[ext_resource type="Script" path="res://Scripts/WeaponLoadout.gd" id="7_loadout"]
 
 [ext_resource type="Script" path="res://Scripts/AilmentDuration.gd" id="ailment_duration"]
 
@@ -69,6 +70,9 @@ vertical_alignment = 1
 
 [node name="PlayerAttack" type="Node" parent="."]
 script = ExtResource("6_cp16i")
+
+[node name="WeaponLoadout" type="Node" parent="."]
+script = ExtResource("7_loadout")
 
 [node name="AilmentDuration" type="Node" parent="."]
 script = ExtResource("ailment_duration")

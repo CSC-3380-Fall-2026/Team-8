@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_r0lu6"]
 [ext_resource type="Script" uid="uid://v5e20oawpart" path="res://Scenes/PlayerHealthBar.gd" id="4_54uua"]
 [ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_plkt7"]
+[ext_resource type="Script" path="res://Scripts/WeaponLoadout.gd" id="6_loadout"]
 
 [ext_resource type="Script" path="res://Scripts/AilmentDuration.gd" id="ailment_duration"]
 
@@ -65,6 +66,9 @@ theme_override_font_sizes/font_size = 32
 text = "PLAYER DEFEATED"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="WeaponLoadout" type="Node" parent="."]
+script = ExtResource("6_loadout")
 
 [node name="AilmentDuration" type="Node" parent="."]
 script = ExtResource("ailment_duration")
