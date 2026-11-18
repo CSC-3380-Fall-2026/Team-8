@@ -45,3 +45,24 @@ func end_turn() -> void:
 	else:
 		turn_ended.emit("PLAYER")
 		start_enemy_turn()
+
+func player_attack() -> void: 
+	if current_turn != Turn.PLAYER:
+		return
+	var active_player: Node = party_manager.get_member(active_player_index)
+	if active_player == null:
+		push_error("Active player not found.")
+		return
+		
+	var attack_component: Node = active_player.get_node_or_null("PlayerAttack")
+	var enemy_health: Health = get_parent().get_node_or_null("Enemy/Health") as Health
+		
+	if attack_component == null or enemy_health == null:
+		push_error("Missing PlayerAttack component or enemy Health.")
+		return
+		
+	if enemy_health.health <= 0:
+		return
+	attack_component.attack(enemy_health)
+	print(active_player.name, " attacked! Enemy HP: ", enemy_health.health)
+	end_turn()
