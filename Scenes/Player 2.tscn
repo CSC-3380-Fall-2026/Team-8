@@ -5,9 +5,9 @@
 [ext_resource type="Script" uid="uid://diyxr612uos8c" path="res://Scripts/Player_HP.gd" id="3_r0lu6"]
 [ext_resource type="Script" uid="uid://v5e20oawpart" path="res://Scenes/PlayerHealthBar.gd" id="4_54uua"]
 [ext_resource type="Script" uid="uid://bib5qogfoc53f" path="res://Scenes/Player_Defeat.gd" id="5_plkt7"]
-[ext_resource type="Script" uid="uid://cxw77ang2ead2" path="res://Scripts/WeaponLoadout.gd" id="6_loadout"]
+[ext_resource type="Script" uid="uid://d301300lfhggi" path="res://Scripts/WeaponLoadout.gd" id="6_loadout"]
 [ext_resource type="Script" uid="uid://t6k0ud8e38wt" path="res://Scripts/PlayerAttack.gd" id="8_54uua"]
-[ext_resource type="Script" uid="uid://c8sedasycsk4w" path="res://Scripts/AilmentDuration.gd" id="ailment_duration"]
+[ext_resource type="Script" uid="uid://o30aoyg5r810" path="res://Scripts/AilmentDuration.gd" id="ailment_duration"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_n5wmx"]
 animations = [{

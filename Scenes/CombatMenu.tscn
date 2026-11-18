@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=2 format=3 uid="uid://pqlrx1rck643"]
 
-[ext_resource type="Script" path="res://Scripts/CombatMenu.gd" id="1"]
+[ext_resource type="Script" uid="uid://bv3s0o2x8k7qi" path="res://Scripts/CombatMenu.gd" id="1"]
 
 [node name="CombatMenu" type="Control"]
 layout_mode = 3
