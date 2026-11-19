@@ -13,6 +13,8 @@ signal next_player
 
 @onready var game_over_label = $"../CanvasLayer/GameOverLabel"
 
+@onready var victory_label = $"../CanvasLayer/VictoryLabel"
+
 func _ready():
 	enemies = get_children()
 	
@@ -24,6 +26,10 @@ func _ready():
 	show_choice()
 
 func _process(_delta):
+	
+	if battle_over:
+		return
+	
 	if battle_over:
 			return
 	if not choice.visible:
@@ -51,7 +57,7 @@ func _attack_enemy(enemy_index):
 	enemies[enemy_index].take_damage(6) ## damage the enemies take
 	
 	if all_enemies_defeated():
-		print("Victory!")
+		victory()
 		return
 		
 	
@@ -156,7 +162,17 @@ func all_players_defeated() -> bool:
 			return false
 			
 	return true
-	
+
+func victory():
+
+	battle_over = true
+
+	victory_label.show()
+
+	choice.hide()
+
+	print("Victory!")
+
 func game_over():
 	
 	battle_over = true

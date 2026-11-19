@@ -55,5 +55,17 @@ text = "GAME OVER"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="VictoryLabel" type="Label" parent="CanvasLayer"]
+visible = false
+anchors_preset = -1
+anchor_right = 0.012
+anchor_bottom = 0.023
+offset_left = 593.0
+offset_top = 329.0
+offset_right = 910.56
+offset_bottom = 448.06
+theme_override_font_sizes/font_size = 100
+text = "Victory"
+
 [connection signal="next_player" from="EnemyGroup" to="PlayerGroup" method="_on_enemy_group_next_player"]
 [connection signal="pressed" from="CanvasLayer/Choice/Attack" to="EnemyGroup" method="_on_attack_pressed"]
