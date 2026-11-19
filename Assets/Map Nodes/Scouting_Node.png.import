@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d6okf0u2udgw"
-path="res://.godot/imported/Player 2 temp.png-fa4d2b61555646b8d1cdedfcefec72fa.ctex"
+uid="uid://dy6kns1fxv1y"
+path="res://.godot/imported/Scouting_Node.png-b043c5c09328ccc2f1a4bf27297ead99.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Players/Player 2 temp.png"
-dest_files=["res://.godot/imported/Player 2 temp.png-fa4d2b61555646b8d1cdedfcefec72fa.ctex"]
+source_file="res://Assets/Map Nodes/Scouting_Node.png"
+dest_files=["res://.godot/imported/Scouting_Node.png-b043c5c09328ccc2f1a4bf27297ead99.ctex"]
 
 [params]
 
