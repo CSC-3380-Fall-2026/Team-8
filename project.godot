@@ -17,6 +17,7 @@ config/features=PackedStringArray("4.4", "Forward Plus")
 [autoload]
 
 Events="*res://Scripts/events.gd"
+RunData="*res://Scripts/RunData.gd"
 
 [display]
 

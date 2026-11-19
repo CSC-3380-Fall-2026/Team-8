@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://de2i6tu1j8aga"]
 
 [ext_resource type="Script" uid="uid://b6piw8rqelyg4" path="res://Scripts/player_group.gd" id="1_052o3"]
-[ext_resource type="PackedScene" uid="uid://bx1yd6q2oylrm" path="res://Scenes/Combat Character.tscn" id="1_kqkyk"]
-[ext_resource type="Texture2D" uid="uid://dwtkop5d8kd66" path="res://Assets/Players/Player 2.png" id="2_f18lv"]
+[ext_resource type="PackedScene" uid="uid://5odxrobm665w" path="res://Scenes/Combat Character.tscn" id="1_kqkyk"]
+[ext_resource type="Texture2D" uid="uid://d6okf0u2udgw" path="res://Assets/Players/Player 2.png" id="2_f18lv"]
 [ext_resource type="Texture2D" uid="uid://cufvtshdvkxwj" path="res://Assets/Players/Player 1.png" id="3_052o3"]
 
 [node name="PlayerGroup" type="Node2D"]

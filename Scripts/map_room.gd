@@ -52,3 +52,4 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 # "select" animation finishes.
 func _on_map_room_selected() -> void:
 	selected.emit(room)
+	

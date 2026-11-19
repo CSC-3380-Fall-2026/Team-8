@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cdgb31cfhkh1e"]
+[gd_scene load_steps=8 format=3 uid="uid://5eomxkwo1xea"]
 
 [ext_resource type="Script" uid="uid://b3bg8nv6k54lh" path="res://Scripts/map_room.gd" id="1_he7ss"]
 [ext_resource type="Texture2D" uid="uid://dqy14ke1hhewo" path="res://Assets/Map Nodes/Fight_Node (2).png" id="1_u57gg"]

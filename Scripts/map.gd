@@ -20,8 +20,18 @@ var camera_edge_y: float
 func _ready() -> void:
 	camera_edge_y = MapGenerator.Y_DIST * (MapGenerator.FLOORS - 1)
 	
-	generate_new_map()
-	unlock_floor(0)
+	if RunData.map_data.is_empty():
+		generate_new_map()
+		unlock_floor(0)
+		
+	else:
+		map_data = RunData.map_data
+		floors_climbed = RunData.floors_climbed
+		last_room = RunData.last_room
+
+		create_map()
+
+		unlock_next_rooms()
 	
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("scroll_up"):
@@ -58,6 +68,7 @@ func unlock_floor(which_floor: int = floors_climbed) -> void:
 
 func unlock_next_rooms() -> void:
 	for map_room: MapRoom in rooms.get_children():
+		print("last_room =", last_room)
 		if last_room.next_rooms.has(map_room.room):
 			map_room.available = true
 			
@@ -91,10 +102,26 @@ func _connect_lines(room: Room) -> void:
 		lines.add_child(new_map_line)
 		
 func _on_map_room_selected(room: Room) -> void:
+	
+	RunData.map_data = map_data
+	RunData.floors_climbed = floors_climbed
+	RunData.selected_room = room
+	
 	for map_room: MapRoom in rooms.get_children():
 		if map_room.room.row == room.row:
 			map_room.available = false
 			
 	last_room = room
+	RunData.last_room = room
 	floors_climbed += 1
-	Events.map_exited.emit(room)
+	
+	
+	match room.type:
+		Room.Type.FIGHT:
+			get_tree().change_scene_to_file("res://Scenes/battle_scene.tscn")
+			
+		Room.Type.SHOP:
+			unlock_next_rooms()
+			
+		Room.Type.CAMPFIRE:
+			unlock_next_rooms()

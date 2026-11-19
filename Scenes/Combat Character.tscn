@@ -1,7 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://bx1yd6q2oylrm"]
+[gd_scene load_steps=7 format=3 uid="uid://5odxrobm665w"]
 
-[ext_resource type="Script" uid="uid://b081cpswgrsl" path="res://Scripts/combot_character.gd" id="1_46qkq"]
-[ext_resource type="Texture2D" uid="uid://b2n2fimhjy3ng" path="res://Assets/Enemies/Enemy placeholder.png" id="1_o875n"]
+[ext_resource type="Script" uid="uid://b2mfv7gjhm8ug" path="res://Scripts/combot_character.gd" id="1_46qkq"]
+[ext_resource type="Texture2D" uid="uid://rgon74eblkaf" path="res://Assets/Enemies/Enemy placeholder.png" id="1_o875n"]
 [ext_resource type="Texture2D" uid="uid://26m06xy66b37" path="res://Assets/Combat UI/Turn Indicator.png" id="2_aay8s"]
 
 [sub_resource type="Animation" id="Animation_uvw1j"]

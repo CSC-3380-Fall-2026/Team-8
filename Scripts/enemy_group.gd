@@ -169,9 +169,9 @@ func victory():
 
 	victory_label.show()
 
-	choice.hide()
+	await get_tree().create_timer(2).timeout
 
-	print("Victory!")
+	get_tree().change_scene_to_file("res://Scenes/Map.tscn")
 
 func game_over():
 	
