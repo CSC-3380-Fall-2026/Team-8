@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://dm1dtjirj342v"]
+
+[ext_resource type="Script" uid="uid://o1g0ltcoibu2" path="res://position_test.gd" id="1_5p8kt"]
+[ext_resource type="Script" uid="uid://cnwt84ohbr6yp" path="res://position_manager.gd" id="1_skris"]
+[ext_resource type="Script" uid="uid://bqe4pnb8jlgxk" path="res://enemy_health.gd" id="3_oa1q5"]
+[ext_resource type="Script" uid="uid://bkvkhy4qfgi2m" path="res://turn_manager.gd" id="4_ssf4l"]
+[ext_resource type="Script" uid="uid://v885ijugwot6" path="res://player_health.gd" id="5_xjmg4"]
+
+[node name="PositionTest" type="Control" unique_id=518734166]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5p8kt")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=581584219]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VanguardButton" type="Button" parent="VBoxContainer" unique_id=1370992163]
+layout_mode = 2
+text = "VANGUARD"
+
+[node name="EquilibriumButton" type="Button" parent="VBoxContainer" unique_id=56461102]
+layout_mode = 2
+text = "EQUALIBRIUM
+"
+
+[node name="RearguardButton" type="Button" parent="VBoxContainer" unique_id=1622431620]
+layout_mode = 2
+text = "REARGUARD
+"
+
+[node name="AttackButton" type="Button" parent="VBoxContainer" unique_id=1707604833]
+layout_mode = 2
+text = "ATTACK
+"
+
+[node name="PositionManager" type="Node" parent="." unique_id=1177930168]
+script = ExtResource("1_skris")
+
+[node name="EnemyHealth" type="Node" parent="." unique_id=260374683]
+script = ExtResource("3_oa1q5")
+
+[node name="EnemyHPBar" type="ProgressBar" parent="." unique_id=1351311564]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 100.0
+offset_right = 550.0
+offset_bottom = 135.0
+value = 100.0
+
+[node name="EnemyHPLabel" type="Label" parent="EnemyHPBar" unique_id=1800491870]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "EnemyHPBar
+"
+
+[node name="VictoryLabel" type="Label" parent="." unique_id=759136434]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 160.0
+offset_right = 342.0
+offset_bottom = 209.0
+text = "ENEMY DEFEATED!
+"
+
+[node name="TurnManager" type="Node" parent="." unique_id=1136855992]
+script = ExtResource("4_ssf4l")
+
+[node name="PlayerHealth" type="Node" parent="." unique_id=1602004207]
+script = ExtResource("5_xjmg4")
+
+[node name="PlayerHPBar" type="ProgressBar" parent="." unique_id=155081881]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 160.0
+offset_right = 550.0
+offset_bottom = 195.0
+max_value = 20.0
+value = 20.0
+show_percentage = false
+
+[node name="PlayerHPLabel" type="Label" parent="PlayerHPBar" unique_id=236697110]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "PlayerHPBar
+"
+
+[node name="RestartButton" type="Button" parent="." unique_id=1169932708]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 330.0
+offset_right = 329.0
+offset_bottom = 361.0
+text = "Restart Combat"
