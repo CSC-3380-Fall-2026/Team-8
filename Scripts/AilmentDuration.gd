@@ -21,6 +21,12 @@ func _on_turn_ended(finished_turn: String) -> void:
 func add_ailment(ailment: String, turns: int) -> void:
 	if turns > 0:
 		ailments[ailment] = turns
+		var mixture: String = check_mixture()
+		if mixture != "":
+			var pair: Array = mixtures[mixture]
+			ailments.erase(pair[0])
+			ailments.erase(pair[1])
+			ailments[mixture] = turns
 
 func check_mixture() -> String:
 	for mixture: String in mixtures.keys():
