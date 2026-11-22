@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bg4tf06u4sy3u"]
+
+[ext_resource type="Script" uid="uid://dcaayn5cvganw" path="res://rest_node.gd" id="1_dri43"]
+
+[node name="RestNode" type="Control" unique_id=1250461558]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dri43")
+
+[node name="RestButton" type="Button" parent="." unique_id=363766832]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "REST"
