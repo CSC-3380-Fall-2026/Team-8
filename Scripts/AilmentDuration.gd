@@ -5,6 +5,9 @@ signal ailment_expired(ailment: String)
 @export_enum("PLAYER", "ENEMY") var owner_turn: String = "PLAYER"
 
 var ailments: Dictionary = {}
+var mixtures: Dictionary = {
+	"Steam": ["Fire", "Water"]
+}
 
 func _ready() -> void:
 	var turn_manager = get_tree().get_first_node_in_group("turn_manager")
@@ -18,6 +21,13 @@ func _on_turn_ended(finished_turn: String) -> void:
 func add_ailment(ailment: String, turns: int) -> void:
 	if turns > 0:
 		ailments[ailment] = turns
+
+func check_mixture() -> String:
+	for mixture: String in mixtures.keys():
+		var pair: Array = mixtures[mixture]
+		if ailments.has(pair[0]) and ailments.has(pair[1]):
+			return mixture
+	return ""
 
 func end_turn() -> void:
 	for ailment in ailments.keys():
