@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=3 uid="uid://bc8nq366nou4w"]
+
+[ext_resource type="Script" uid="uid://oui3dbw1j3lg" path="res://Scripts/title_screen.gd" id="1_klylv"]
+[ext_resource type="Texture2D" uid="uid://cufvtshdvkxwj" path="res://Assets/Players/Player 1.png" id="2_twnyg"]
+[ext_resource type="Texture2D" uid="uid://d6okf0u2udgw" path="res://Assets/Players/Player 2.png" id="3_55kwv"]
+[ext_resource type="Texture2D" uid="uid://rgon74eblkaf" path="res://Assets/Enemies/Enemy placeholder.png" id="4_12m1t"]
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_klylv")
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 566.0
+offset_top = 213.0
+offset_right = 980.0
+offset_bottom = 415.0
+theme_override_font_sizes/font_size = 100
+text = "Start"
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 570.0
+offset_top = 498.0
+offset_right = 984.0
+offset_bottom = 700.0
+theme_override_font_sizes/font_size = 100
+text = "Quit"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 171.0
+offset_top = 42.0
+offset_right = 1403.0
+offset_bottom = 179.0
+theme_override_font_sizes/font_size = 100
+text = "Project Alchemy VS Magic"
+
+[node name="Player1" type="Sprite2D" parent="."]
+position = Vector2(1236, 357)
+scale = Vector2(0.228516, 0.225098)
+texture = ExtResource("2_twnyg")
+flip_h = true
+
+[node name="Player2" type="Sprite2D" parent="."]
+position = Vector2(1401, 614)
+scale = Vector2(0.269531, 0.288086)
+texture = ExtResource("3_55kwv")
+flip_h = true
+
+[node name="EnemyPlaceholder" type="Sprite2D" parent="."]
+position = Vector2(350, 449)
+scale = Vector2(0.213867, 0.1875)
+texture = ExtResource("4_12m1t")
+
+[node name="EnemyPlaceholder2" type="Sprite2D" parent="."]
+position = Vector2(164, 593)
+scale = Vector2(0.213867, 0.1875)
+texture = ExtResource("4_12m1t")
+
+[node name="EnemyPlaceholder3" type="Sprite2D" parent="."]
+position = Vector2(168, 309)
+scale = Vector2(0.213867, 0.1875)
+texture = ExtResource("4_12m1t")
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]
